@@ -1,0 +1,31 @@
+{
+    "name": "design-ui",
+    "version": "1.0.0",
+    "description": "A CLI tool for managing design systems",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "dui": "./bin/global.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Benjamin Martin <benjaminsnetwork@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^14.10.1",
+        "eslint": "^7.9.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.20.6",
+        "prettier": "^2.1.1",
+        "typescript": "^4.0.2"
+    },
+    "dependencies": {
+        "chalk": "^4.1.0"
+    }
+}
