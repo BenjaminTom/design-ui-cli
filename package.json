@@ -1,5 +1,5 @@
 {
-    "name": "design-ui",
+    "name": "dui-cli",
     "version": "1.0.0",
     "description": "A CLI tool for managing design systems",
     "main": "dist/index.js",
