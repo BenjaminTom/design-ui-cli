@@ -1,5 +1,6 @@
 import filterArgs from './filterCommands';
 import { logVersion, help } from './stockFunctions';
+import { Command, ArgDescription } from './types/index';
 
 class Program {
     command?: string;
